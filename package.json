@@ -1,0 +1,33 @@
+{
+  "name": "sjcl-cli",
+  "version": "0.0.1",
+  "description": "A command line interface for SJCL",
+  "main": "src/index.js",
+  "bin": {
+    "sjcl": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masonicGIT/sjcl-cli.git"
+  },
+  "keywords": [
+    "sjcl",
+    "cli"
+  ],
+  "author": "Mason Borda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masonicGIT/sjcl-cli/issues"
+  },
+  "homepage": "https://github.com/masonicGIT/sjcl-cli#readme",
+  "dependencies": {
+    "chalk": "1.1.3",
+    "co": "4.6.0",
+    "co-prompt": "1.0.0",
+    "commander": "2.9.0",
+    "sjcl": "1.0.6"
+  }
+}
