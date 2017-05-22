@@ -1,5 +1,4 @@
 # SJCL Command Line Interface (sjcl-cli)
-======
 
 ## Summary
 
